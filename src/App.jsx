@@ -1,10 +1,16 @@
 import './App.css'
-import Navbar from './Navbar/navbar'
+import Hero from './compoents/hero'
+import Navbar from './compoents/navbar'
+import HalfOrbitAnimation from './compoents/rotate'
+
+
+
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar/>
+      <Hero/>
     </>
   )
 }
