@@ -1,8 +1,9 @@
 .maincontent {
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     position: relative;
     top: 0%;
+    background-color: #000000;
 }
 
 .orbitcontent{
@@ -14,11 +15,20 @@
     background: radial-gradient(circle at center, #9E5CF7 0%, #000000 25%, #000000 100%);
 }
 
+#imagesconatiner{
+    position: absolute;
+    z-index: 10;
+    top: 580px;
+    width: 100%;
+    height: 100vh;
+}
+
 #textcontent {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-top: 150px;
     align-items: center;
     flex-direction: column;
     gap: 15px;
@@ -27,9 +37,9 @@
 }
 
 #itemone {
-    width: 300px;
+    width: 270px;
     height: 40px;
-    border: 1px solid white;
+    border: 1px solid rgb(53, 45, 45);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,28 +49,31 @@
 }
 
 #itemone h6 {
-    width: 40px;
-    height: 20px;
-    background-color: #6B3FC8;
+    width: 35px;
+    height: 15px;
+    background-color: #A45CFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 9px;
     border-radius: 10px;
 }
 
 #itemone p {
-    color: #6B3FC8;
+    font-size: 15px;
+    font-weight: 500;
+    color: #B87EFF;
+text-shadow: 0 0 8px rgba(184, 126, 255, 0.6);
 }
 
 #itemtwo{
     text-align: center;
 }
 
-#ww {
+#ww{
     color: #FDFDFE;
-    font-weight: 500;
-    font-size: 5rem;
+    font-weight: 550;
+    font-size: 75px;
 }
 
 #two {
@@ -73,8 +86,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  font-weight: 500;
-  font-size: 5rem;
+  font-weight: 550;
+  font-size: 75px;
 
   text-shadow:
     0 2px 6px rgba(210, 179, 224, 0.25),
@@ -83,14 +96,14 @@
 
 #conetenpara{
    color: #E3DAF2;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
 }
 
 #buttoncontent{
     width: 130px;
     height: 50px;
-    border: 1px solid white;
+    border: 1px solid rgb(140, 69, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,3 +141,9 @@
     height: 100vh;
     background-color:black;
 }
+
+hr{
+    border: none;
+    border-top: 1px solid rgb(53, 45, 45);
+}
+

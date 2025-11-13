@@ -1,12 +1,14 @@
 import "../styles/hero.css"
 import two from "../assets/two.png"
 import Background from "./rotate";
+import GlassBox from "./glassbox";
+
 export default function Hero() {
 
 
     return (
         <>
-
+        <hr />
             <div className="maincontent">
 
                 <div className="orbitcontent">
@@ -34,13 +36,11 @@ export default function Hero() {
                     </div>
                 </div>
 
-            </div>
-
-            <div className="imgcontainer">
-                <div id="imgcontent">
-                    <img src={two} alt="" style={{}}/>
+                <div id="imagesconatiner">
+                    <GlassBox/>
                 </div>
             </div>
+
         </>
     )
 }

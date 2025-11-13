@@ -29,9 +29,7 @@ export default function Navbar() {
         <div className="navbutton">
           <button>Join Waitlist</button>
         </div>
-      </nav>
-
-      <hr />
+      </nav>     
     </>
   );
 }
